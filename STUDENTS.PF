@@ -1,0 +1,15 @@
+000100210127     A                                      UNIQUE
+000200210127     A          R STUDENTSR                 TEXT('STUDENTS REGISTER')
+000300210127     A            STUDENTNO      9S 0       COLHDG('STUDENT''NUMBER')
+000400210127     A            FIRSTNAME     15          COLHDG('FIRST NAME')
+000500210127                  LASTNAME      20          COLHDG('LAST NAME')
+000600210127     A            BIRTHDATE       L
+000700210127     A            PHONE         10S 0       COLHDG('PHONE' 'NUMBER')
+000800210127     A            ADDRESS       30          COLHDG('STREET' 'ADDRESS')
+000900210127     A            CITY          15
+001000210127     A            PROVINCE       2          COLHDG('PROV' 'CODE')
+001100210127     A            POSTALCODE     6          COLHDG('POSTAL' 'CODE')
+001200210127     A            FEESOWED       7P 2       COLHDG('FEES' 'OWED')
+001300210127     A            FINESOWED      7P 2       COLHDG('FINES' 'OWED')
+001400210127     A          K STUDENTNO
+001401210129
